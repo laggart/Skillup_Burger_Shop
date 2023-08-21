@@ -23,7 +23,7 @@ const OrderDetails = () => {
                     </p>
                     <p>
                         <b>Teléfono</b>
-                        {+34567890234}
+                        {"+34 567 890 123"}
                     </p>
                 </div>
 
