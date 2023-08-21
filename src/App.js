@@ -5,6 +5,7 @@ import Header from "./components/layout/Header";
 import Contact from "./components/contact/Contact";
 import Cart from "./components/cart/Cart";
 import Shipping from "./components/cart/Shipping";
+import MyOrders from "./components/myOrders/MyOrders";
 // Added module imports for CART
 
 // Add module imports for Shipping
@@ -40,18 +41,12 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/about" element={<About />} />
-          //           Add the Route for CART
-      
-          //           Add the Route for SHIPPING
-        
-        <Route path="/login" element={<Login />} />
-        <Route path="/me" element={<Profile />} />
-         //           Add the Route for MY ORDERS
-
-        <Route path="/order/:id" element={<OrderDetails />} />
         <Route path="/cart" element={<Cart />} /> 
         <Route path="/shipping" element={<Shipping />} />
-       
+        <Route path="/login" element={<Login />} />
+        <Route path="/me" element={<Profile />} />
+        <Route path="/myorders" element={<MyOrders />} />
+        <Route path="/order/:id" element={<OrderDetails />} />
 
         
       </Routes>
